@@ -5,7 +5,7 @@ import { UiComponent } from '@angular-monorepo/ui';
 
 @Component({
   standalone: true,
-  imports: [UiComponent, RouterModule],
+  imports: [UiComponent, RouterModule, NxWelcomeComponent],
   selector: 'app-root',
   templateUrl: './app.component.html',
   styleUrl: './app.component.scss',
